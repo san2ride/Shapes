@@ -14,6 +14,7 @@
 		F7B31DE32E1B1D0F005911A2 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DE22E1B1D0F005911A2 /* Buttons.swift */; };
 		F7B31DE62E1B1EF7005911A2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DE52E1B1EF7005911A2 /* NetworkService.swift */; };
 		F7B31DEA2E1B2299005911A2 /* ShapesGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DE92E1B2299005911A2 /* ShapesGridViewModel.swift */; };
+		F7B31DED2E1B26CA005911A2 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DEC2E1B26CA005911A2 /* ShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F7B31DE52E1B1EF7005911A2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		F7B31DE72E1B205E005911A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B31DE92E1B2299005911A2 /* ShapesGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesGridViewModel.swift; sourceTree = "<group>"; };
+		F7B31DEC2E1B26CA005911A2 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				F7B31DE12E1B1CFD005911A2 /* Models */,
+				F7B31DEB2E1B266C005911A2 /* Views */,
 				F7B31DE82E1B2214005911A2 /* ViewModels */,
 				F7B31DDE2E1B1BEA005911A2 /* Utilities */,
 				F7B31DE42E1B1EDD005911A2 /* Services */,
@@ -100,6 +103,14 @@
 				F7B31DE92E1B2299005911A2 /* ShapesGridViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F7B31DEB2E1B266C005911A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7B31DEC2E1B26CA005911A2 /* ShapeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +191,7 @@
 				F7B31DDD2E1B1BE6005911A2 /* ShapesAppApp.swift in Sources */,
 				F7B31DE02E1B1C02005911A2 /* Constants.swift in Sources */,
 				F7B31DE32E1B1D0F005911A2 /* Buttons.swift in Sources */,
+				F7B31DED2E1B26CA005911A2 /* ShapeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
