@@ -19,6 +19,7 @@ class ShapesGridViewModel: ObservableObject {
     func loadButtons() async {
         do {
             let response = try await NetworkService().load(url: URLs.cricutURL)
+            print(response)
             self.buttons = response
         } catch {
             errorMessage = error.localizedDescription
@@ -32,6 +33,16 @@ class ShapesGridViewModel: ObservableObject {
     // MARK: - Remove All Shapes
     func clearShapes() {
         gridShapes.removeAll()
+    }
+    // MARK: - Delete All Circles
+    func deleteAllCircles() {
+        gridShapes.removeAll { $0.type == .circle }
+    }
+    // MARK: - Remove circle from lastIdex
+    func removeLastCircle() {
+        if let lastCircleIndex = gridShapes.lastIndex(where: { $0.type == .circle }) {
+            gridShapes.remove(at: lastCircleIndex)
+        }
     }
     // MARK: - Next Shape in the Grid
     private func nextShapePosition() -> CGPoint {

@@ -24,7 +24,7 @@ struct ShapeGridView: View {
                     // MARK: - Edit Circles Button
                     ToolbarItem(placement: .topBarTrailing) {
                         NavigationLink("Edit Circles") {
-                            EditCirclesView()
+                            EditCirclesView(vm: vm)
                         }
                     }
                     //MARK: - Shapes Button Group
