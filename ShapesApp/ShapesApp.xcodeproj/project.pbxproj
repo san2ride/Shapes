@@ -12,6 +12,7 @@
 		F7B31DDD2E1B1BE6005911A2 /* ShapesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DD92E1B1BE6005911A2 /* ShapesAppApp.swift */; };
 		F7B31DE02E1B1C02005911A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DDF2E1B1C02005911A2 /* Constants.swift */; };
 		F7B31DE32E1B1D0F005911A2 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DE22E1B1D0F005911A2 /* Buttons.swift */; };
+		F7B31DE62E1B1EF7005911A2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DE52E1B1EF7005911A2 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		F7B31DD92E1B1BE6005911A2 /* ShapesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesAppApp.swift; sourceTree = "<group>"; };
 		F7B31DDF2E1B1C02005911A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F7B31DE22E1B1D0F005911A2 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		F7B31DE52E1B1EF7005911A2 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F7B31DE72E1B205E005911A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +56,10 @@
 		F7B31DDA2E1B1BE6005911A2 /* ShapesApp */ = {
 			isa = PBXGroup;
 			children = (
+				F7B31DE72E1B205E005911A2 /* Info.plist */,
 				F7B31DE12E1B1CFD005911A2 /* Models */,
 				F7B31DDE2E1B1BEA005911A2 /* Utilities */,
+				F7B31DE42E1B1EDD005911A2 /* Services */,
 				F7B31DD72E1B1BE6005911A2 /* Assets.xcassets */,
 				F7B31DD82E1B1BE6005911A2 /* ContentView.swift */,
 				F7B31DD92E1B1BE6005911A2 /* ShapesAppApp.swift */,
@@ -76,6 +81,14 @@
 				F7B31DE22E1B1D0F005911A2 /* Buttons.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F7B31DE42E1B1EDD005911A2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F7B31DE52E1B1EF7005911A2 /* NetworkService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B31DE62E1B1EF7005911A2 /* NetworkService.swift in Sources */,
 				F7B31DDC2E1B1BE6005911A2 /* ContentView.swift in Sources */,
 				F7B31DDD2E1B1BE6005911A2 /* ShapesAppApp.swift in Sources */,
 				F7B31DE02E1B1C02005911A2 /* Constants.swift in Sources */,
@@ -291,6 +305,7 @@
 				DEVELOPMENT_TEAM = 6D9CKTK39V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShapesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -319,6 +334,7 @@
 				DEVELOPMENT_TEAM = 6D9CKTK39V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShapesApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
