@@ -8,19 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		F7B31DDB2E1B1BE6005911A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B31DD72E1B1BE6005911A2 /* Assets.xcassets */; };
-		F7B31DDC2E1B1BE6005911A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DD82E1B1BE6005911A2 /* ContentView.swift */; };
 		F7B31DDD2E1B1BE6005911A2 /* ShapesAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DD92E1B1BE6005911A2 /* ShapesAppApp.swift */; };
 		F7B31DE02E1B1C02005911A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DDF2E1B1C02005911A2 /* Constants.swift */; };
 		F7B31DE32E1B1D0F005911A2 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DE22E1B1D0F005911A2 /* Buttons.swift */; };
 		F7B31DE62E1B1EF7005911A2 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DE52E1B1EF7005911A2 /* NetworkService.swift */; };
 		F7B31DEA2E1B2299005911A2 /* ShapesGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DE92E1B2299005911A2 /* ShapesGridViewModel.swift */; };
 		F7B31DED2E1B26CA005911A2 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DEC2E1B26CA005911A2 /* ShapeView.swift */; };
+		F7B31DEF2E1B2A58005911A2 /* ShapeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B31DEE2E1B2A58005911A2 /* ShapeGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F7B31DC92E1B1BA3005911A2 /* ShapesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B31DD72E1B1BE6005911A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7B31DD82E1B1BE6005911A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7B31DD92E1B1BE6005911A2 /* ShapesAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesAppApp.swift; sourceTree = "<group>"; };
 		F7B31DDF2E1B1C02005911A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F7B31DE22E1B1D0F005911A2 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		F7B31DE72E1B205E005911A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B31DE92E1B2299005911A2 /* ShapesGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesGridViewModel.swift; sourceTree = "<group>"; };
 		F7B31DEC2E1B26CA005911A2 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		F7B31DEE2E1B2A58005911A2 /* ShapeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,6 @@
 				F7B31DE42E1B1EDD005911A2 /* Services */,
 				F7B31DE72E1B205E005911A2 /* Info.plist */,
 				F7B31DD72E1B1BE6005911A2 /* Assets.xcassets */,
-				F7B31DD82E1B1BE6005911A2 /* ContentView.swift */,
 				F7B31DD92E1B1BE6005911A2 /* ShapesAppApp.swift */,
 			);
 			path = ShapesApp;
@@ -109,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				F7B31DEC2E1B26CA005911A2 /* ShapeView.swift */,
+				F7B31DEE2E1B2A58005911A2 /* ShapeGridView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,8 +185,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7B31DEF2E1B2A58005911A2 /* ShapeGridView.swift in Sources */,
 				F7B31DE62E1B1EF7005911A2 /* NetworkService.swift in Sources */,
-				F7B31DDC2E1B1BE6005911A2 /* ContentView.swift in Sources */,
 				F7B31DEA2E1B2299005911A2 /* ShapesGridViewModel.swift in Sources */,
 				F7B31DDD2E1B1BE6005911A2 /* ShapesAppApp.swift in Sources */,
 				F7B31DE02E1B1C02005911A2 /* Constants.swift in Sources */,

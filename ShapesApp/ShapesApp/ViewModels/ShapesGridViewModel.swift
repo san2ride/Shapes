@@ -23,4 +23,9 @@ class ShapesGridViewModel: ObservableObject {
             errorMessage = error.localizedDescription
         }
     }
+    // MARK: - Remove All Shapes
+    func clearShapes() {
+        gridShapes.removeAll()
+    }
+    
 }

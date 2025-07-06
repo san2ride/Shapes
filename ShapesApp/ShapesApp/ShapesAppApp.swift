@@ -11,7 +11,7 @@ import SwiftUI
 struct ShapesAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ShapeGridView()
         }
     }
 }
