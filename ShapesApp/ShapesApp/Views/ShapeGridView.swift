@@ -15,9 +15,15 @@ struct ShapeGridView: View {
             ShapeView(gridShapes: vm.gridShapes)
                 .padding()
                 .toolbar {
+                    // MARK: Clear All Button
                     ToolbarItem(placement: .topBarLeading) {
                         Button("Clear All") {
                             vm.clearShapes()
+                        }
+                    }
+                    ToolbarItem(placement: .topBarTrailing) {
+                        NavigationLink("Edit Circles") {
+                            EditCirclesView()
                         }
                     }
                 }
